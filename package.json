@@ -1,5 +1,5 @@
 {
-  "name": "@lvilabs/ans-feed-by-author-paged",
+  "name": "@la-voz/ans-feed-by-section-paged",
   "version": "0.1.0",
   "scripts": {
     "test": "jest"
