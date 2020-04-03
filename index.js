@@ -14,7 +14,7 @@ const params = {
  */
 const pattern = (key = {}) => {
   const website = key["arc-site"] || "Arc Site is not defined.";
-  const { section, feedPage, feedSize } = key;
+  const { section, feedPage = 1, feedSize } = key;
 
   const searchPath = "/content/v4/search/published";
 
